@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1887
+
+" This is a  simple script to quicky insert a print statement in your code.
+" Currently supported languages are : 
+"       C
+"       Scheme, Lisp , OCaml/Omlet, Haskell
+"       Java
+" It also indents current line and puts the cursor where you expect it to be, in
+" insert mode of course !
+
+For example, in C, it would insert a printf("X"); while in Scheme, you'd have a (display X), where X is the cursor position.
+
+Mapped to <Leader>P in normal mode
+abbreviated to pap in insert mode (as in "PrintAPrint")
+
+TODO :
+More languages to be added as I'm requested.
+Some more idiomatic statements may replace those I chose, and the possibility to choose between several printers ? (print, display, pretty-print, show....)
+
